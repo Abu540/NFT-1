@@ -1,0 +1,282 @@
+
+@media (max-width: 1093px) {
+  .nav {
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+    color: #ffff;
+  }
+  .carton:nth-child(3) {
+    display: none;
+  }
+  .frame h6:nth-last-child(2) {
+    display: none;
+  }
+  .frame h5 {
+    display: flex;
+  }
+  .carton,
+  big img {
+    width: 100%;
+    max-width: 530px;
+  }
+
+  .frame img {
+    width: 100%;
+    max-width: 150px;
+  }
+  .frame h6 {
+    width: 100%;
+  }
+
+  .frame h5 {
+    width: 100%;
+    max-width: 150px;
+  }
+
+  .carts {
+    display: none;
+  }
+
+  .Box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  .Carts {
+    display: flex;
+  }
+  .case-text {
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .case-img img {
+    width: 100%;
+    max-width: 190px;
+  }
+  .explore-img:nth-child(3) {
+    display: none;
+  }
+  .explore-img,
+  .bigest img {
+    width: 100%;
+    max-width: 550px;
+  }
+
+  .explore-img img {
+    width: 100%;
+    max-width: 550px;
+  }
+
+  .new-explore {
+    width: 100%;
+    max-width: 550px;
+  }
+}
+@media (max-width: 930px) {
+  .case-img img {
+    width: 100%;
+    max-width: 170px;
+  }
+
+  .case-text {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 1129px) {
+  .case-img img {
+    width: 100%;
+    max-width: 220px;
+  }
+
+  .case-text {
+    width: 100%;
+    max-width: 220px;
+  }
+}
+@media (max-width: 1050px) {
+  .case-img img {
+    width: 100%;
+    max-width: 180px;
+  }
+
+  .case-text {
+    width: 100%;
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+  }
+  .main .main-btn {
+    align-items: flex-start;
+  }
+
+  .carton:nth-child(3) {
+    display: none;
+  }
+  .frame h6:nth-last-child(2) {
+    display: none;
+  }
+  .frame h5 {
+    display: flex;
+  }
+
+  .carton,
+  big img {
+    width: 100%;
+    max-width: 330px;
+  }
+  .trending {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carton:nth-child(2) {
+    display: none;
+  }
+
+  .creators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .creators .btn-creators {
+    display: none;
+  }
+
+  .Box .btn {
+    display: flex;
+  }
+
+  .Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Carts {
+    padding: 20px;
+    width: 300px;
+    height: 120px;
+    background: #3b3b3b;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  .Carts img {
+    width: 100%;
+    max-width: 50px;
+  }
+  .case-img img {
+    width: 100%;
+    max-width: 270px;
+    display: flex;
+  }
+  .case-text {
+    width: 100%;
+    max-width: 270px;
+  }
+  .browse-cart {
+    display: flex;
+    align-items: center;
+  }
+  .discover-content {
+    display: flex;
+    align-items: center;
+  }
+  .btn-discover button {
+    display: none;
+  }
+  .explore-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .explore-img:nth-child(3) {
+    display: flex;
+  }
+  .explore-img,
+  .bigest img {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .explore-img img {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .new-explore {
+    width: 100%;
+    max-width: 450px;
+  }
+  .wallet {
+    display: none;
+  }
+  #setup {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .setup {
+    display: flex;
+    justify-content: center;
+  }
+  .setup-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .d-save {
+    display: flex;
+    flex-direction: column;
+  }
+  .d-save p {
+    font-size: clamp(0.75rem, 0.682rem + 0.34vw, 0.938rem);
+    width: 100%;
+    max-width: 480px;
+    margin-right: -45px;
+    padding: 5px 20px;
+    color: #000;
+    background: #f2f9eb;
+
+    border-radius: 20px;
+  }
+
+  .explore-content {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .footer-logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .time {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .case-img img {
+    width: 100%;}
+  }
